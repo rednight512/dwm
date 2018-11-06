@@ -1,0 +1,14 @@
+
+Usage
+
+    ^rx,y,w,h^ : draw a rectangle.
+    ^c#FF0000^ : set foreground color.
+    ^f11^ : forward the x draawing cursor, only needed for drawings, not text.
+    ^d^ : reset foreground color to SchemeNorm.
+
+Example
+
+ setroot -name "dwmstatus ^c#FF0000^ in red with reactangle ^r0,0,10,10^^f10^^c#FFFFFF^ and white text"
+
+
+
